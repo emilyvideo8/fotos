@@ -9,23 +9,11 @@
 body {
   background: black;
   color: white;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 .card {
   border: 1px solid black;
@@ -138,10 +126,12 @@ button a {
 .home__container h1 {
   position: relative;
   z-index: 2;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   padding: 1rem;
   line-height: 3rem;
   font-weight: bold;
+  width: 100%;
+  text-align: center;
 }
 
 .home__container button {
@@ -164,4 +154,5 @@ button a {
   width: 100%;
   height: auto;
   opacity: 0.6;
+
 }
