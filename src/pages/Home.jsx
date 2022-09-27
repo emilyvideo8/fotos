@@ -10,9 +10,8 @@ const Home = () => {
     <>
     <div className="home">
       <div className="home__container">
-        <h1> ESTA PAGINA CONTIENE MUJERES SIN ROPA </h1>
+        <h1> ESTA PAGINA CONTIENE MIS VIDEOS SIN ROPA </h1>
         <h2>DESEAS CONTINUAR ?</h2>
-        <img src={Background1} alt="background" />
         <button><Link to='videos' > Ver Videos </Link></button>
         <button><a href='https://google.com'> Salir de la Pagina </a></button>
       </div>

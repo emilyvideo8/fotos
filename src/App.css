@@ -28,6 +28,13 @@ body {
   border-bottom: 1px solid white;
 }
 
+.boton__sensurado {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .image__container  {
   width: 25rem;
   margin-top: 1rem;
