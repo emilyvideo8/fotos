@@ -113,3 +113,23 @@ button a {
   padding: 1rem;
   font-style: italic;
 }
+
+
+.popup__container {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  background: rgb(189, 158, 218);
+  
+}
+
+.display__none {
+  display: none;
+}
+
+.popup__container h1 {
+  color: black;
+}
