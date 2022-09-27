@@ -114,22 +114,29 @@ button a {
   font-style: italic;
 }
 
+.home__container {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
 
-.popup__container {
-  background: white;
-  width: 100vw;
-  height: 100vh;
+}
+
+.home__container h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.home__container button {
+  position: relative;
+  z-index: 4;
+}
+
+.home__container img {
   position: absolute;
+  left: 0;
   top: 0;
-  z-index: 99;
-  background: rgb(189, 158, 218);
-  
-}
-
-.display__none {
-  display: none;
-}
-
-.popup__container h1 {
-  color: black;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
 }
