@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from '../components/Card'
 import imagen1 from '../images/IMG_20220927_162011.jpg'
+import imagen2 from '../images/imagen2.jpg'
+import imagen3 from '../images/imagen3.jpg'
 
 const Videos = () => {
   return (
@@ -8,20 +10,18 @@ const Videos = () => {
      
       <Card  
       imagen={imagen1} 
-      titulo='click en la imagen para ver el video sin censura'
+      titulo='CLICK EN LA IMAGEN PARA VER EL VIDEO SIN CENSURA'
       link='https://disk.yandex.com/i/tLLSuOOJNL646w' />    
 
     <Card  
-      imagen={imagen1} 
-      titulo='en estos videos me dan duro por atras'
-      anuncio='http://lyksoomu.com/OPFn'
-      pago='https://buy.stripe.com/fZeg1OcQv0mi5OwbIJ' />    
+      imagen={imagen2} 
+      titulo='CLICK EN LA IMAGEN PARA VER EL VIDEO SIN CENSURA'
+      link='https://disk.yandex.com/i/IqwfrpyzglyPPQ' />    
 
       <Card  
-      imagen={imagen1} 
-      titulo='en estos videos me dan duro por atras'
-      anuncio='http://lyksoomu.com/OPFn'
-      pago='https://buy.stripe.com/fZeg1OcQv0mi5OwbIJ' />
+      imagen={imagen3} 
+      titulo='CLICK EN LA IMAGEN PARA VER EL VIDEO SIN CENSURA'
+      link='https://disk.yandex.com/i/iBnVJtMrk5hxeQ' />
 
 
 
