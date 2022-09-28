@@ -13,6 +13,10 @@ body {
 }
 
 
+.wrapper__container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 .card {
@@ -33,12 +37,16 @@ body {
   padding: 0;
 }
 
-
+.boton__sensurado img{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 .image__container  {
   width: 25rem;
   margin-top: 1rem;
-  
+  background: transparent;
 }
 
 .image__container img {
@@ -50,6 +58,9 @@ body {
 /* ============  CARD =================== */
 
 .titulo {
+  margin: .5rem 1rem;
+  text-align: center;
+  width: 90%;
   font-size: 1.5rem;
   font-weight: bold;
   background: black;

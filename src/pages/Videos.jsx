@@ -1,28 +1,34 @@
 import React from 'react'
 import Card from '../components/Card'
-import Escuela from '../images/escuela.jpg'
-import I from '../images/backgroundHome.jpg'
+import imagen1 from '../images/IMG_20220927_162011.jpg'
 
 const Videos = () => {
   return (
-    <>
-     <>
+    <div className='wrapper__container'>
+     
       <Card  
-      imagen={I} 
+      imagen={imagen1} 
+      titulo='click en la imagen para ver el video sin censura'
+      link='https://disk.yandex.com/i/tLLSuOOJNL646w' />    
+
+    <Card  
+      imagen={imagen1} 
       titulo='en estos videos me dan duro por atras'
-      anuncio='https://disk.yandex.com/i/tLLSuOOJNL646w'
-      pago='https://buy.stripe.com/fZeg1OcQv0mi5OwbIJ' />
-    </>
-
-
-
+      anuncio='http://lyksoomu.com/OPFn'
+      pago='https://buy.stripe.com/fZeg1OcQv0mi5OwbIJ' />    
 
       <Card  
-      imagen={I} 
+      imagen={imagen1} 
       titulo='en estos videos me dan duro por atras'
       anuncio='http://lyksoomu.com/OPFn'
       pago='https://buy.stripe.com/fZeg1OcQv0mi5OwbIJ' />
-    </>
+
+
+
+      
+    </div>
+
+    
   )
 }
 
