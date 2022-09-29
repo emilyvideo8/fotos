@@ -9,6 +9,7 @@ const Home = () => {
 
 
     <>
+
     <div className="home">
       <div className="home__container">
         <div className='icon'> < GiGlassHeart /> </div>

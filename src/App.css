@@ -20,80 +20,9 @@ body {
 }
 
 
-.card {
-  border: 1px solid black;
-  width: 27rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  /* background: black; */
-  border-bottom: 1px solid white;
-}
-
 .icon svg {
   font-size: 3rem;
   color: rgb(240, 108, 180);
-}
-
-.boton__sensurado {
-  margin: 0;
-  padding: 0;
-}
-
-.boton__sensurado img{
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.image__container  {
-  width: 25rem;
-  margin-top: 1rem;
-  background: transparent;
-}
-
-.image__container img {
-  width: 100%;
-  user-select: none;
-}
-
-
-/* ============  CARD =================== */
-
-.titulo {
-  margin: .5rem 1rem;
-  text-align: center;
-  width: 90%;
-  font-size: 1.5rem;
-  font-weight: bold;
-  background: black;
-  color: rgb(252, 240, 220);
-}
-
-.descripcion {
-  font-size: 1rem;
-  margin: .5rem 0;
-  font-style: italic;
-}
-
-.boton__left {
-  border-bottom: 1px solid white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 1rem;
-  font-style: oblique;
-  
-}
-
-.boton__right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 1rem;
 }
 
 button {
@@ -110,21 +39,6 @@ button a {
   outline: none;
 }
 
-
-.azul {
-  background: rgb(160, 160, 248);
-  outline: none;
-  color: white;
-}
-
-.rojo {
-  background: rgb(250, 109, 109);
-}
-
-.descripcion__boton {
-  padding: 1rem;
-  font-style: italic;
-}
 
 /* ======================== HOME ======================= */
 
@@ -179,4 +93,44 @@ button a {
   height: auto;
   opacity: 0.6;
 
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .titulo1 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: rgb(240, 108, 180);
+  align-items: center;
+  display: flex;
+}
+
+
+/* ================== card ================== */
+
+.card {
+  width: 10rem;
+  height: 15rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.titulo {
+  color: white;
+  font-size: .8rem;
+  text-align: center;
+  font-style: italic;
 }

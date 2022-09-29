@@ -1,20 +1,12 @@
 import React from 'react'
-import Sensurado from '../images/IMG_20220927_162011.jpg'
 
-const Card = ({ imagen, titulo, link }) => {
+const Card = ({ imagen, titulo, link, alt }) => {
   return (
 
-    <div className='card'>
-    <div className='image__container'>
-      <button 
-        className='boton__sensurado'> 
-        <a href={link}>
-          <img src={imagen} alt='censurado' /></a>
-        </button>
-    </div>
-    <p className='titulo'>{titulo}</p>
-    
-  </div>
+      <a href={link} target='_blank' className='card'>
+        <img src={imagen} alt={alt} />
+        <h1 className='titulo'>{titulo}</h1>
+      </a>
   )
 }
 
