@@ -23,7 +23,7 @@ const Videos = () => {
         <Card  
         imagen={imagen7} 
         titulo='Amiga Es Cogida Por Un Negro Y Llora de Tanto Placer'
-        link='https://disk.yandex.com/i/yhX2iabukCuphg' 
+        link='https://disk.yandex.com/i/GS5nyEgzHbXkWw' 
         alt='video7'/> 
 
         <Card  
